@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dabble!</title>
+    <script src="injector.js"></script>
+    <script src="modules/egg.js"></script>
+    <script>
+      var mod = injector.module('chicken',['egg','pizza', function(egg, pizza){
+	egg.hatch()
+	pizza.slice()
+      }])
+    </script> 
+  </head>
+  <body>
+    <script>
+    
+    </script>
+  </body>
+</html>
